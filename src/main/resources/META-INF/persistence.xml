@@ -6,9 +6,9 @@
 	<persistence-unit name="pedidovendasPU" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>							
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/pedidovenda"/>		
-			<property name="javax.persistence.jdbc.user" value="postgres" />
-			<property name="javax.persistence.jdbc.password" value="nds42teste2" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgres://ec2-54-163-228-190.compute-1.amazonaws.com:5432/df6u156c5emi9l2"/>		
+			<property name="javax.persistence.jdbc.user" value="flxciwvpzujcrb" />
+			<property name="javax.persistence.jdbc.password" value="356ba74111d18bf07f077be8db9f067dca734ea63af1ddac1babced1fa520100" />
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>						
 <!-- 			<property name="hibernate.default_schema" value="pedidovenda"/>	 -->
 <!-- 			<property name="hibernate.hbm2ddl.auto" value="update" /> -->
